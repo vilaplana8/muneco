@@ -1,0 +1,89 @@
+body {
+  align-items: center;
+  margin: 0;
+  background: white;
+  height:300PX;
+}
+
+.muneco {
+  position: relative;
+}
+
+
+.cabeza{
+  position: relative;
+  background: #FFDEAD;
+  height:200px;
+  width:250px;
+  margin: 0 auto;
+  border-radius: 40%
+}
+
+
+.ojos{
+  position: absolute;
+  height: 150px;
+  left: 3em;
+  margin: 0 auto;
+  top: 3em;
+}
+
+
+.ojo{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 70%
+}
+
+.ojo-rt{
+  position: absolute;
+  left: 5em;
+  bottom: 0;
+  top: 0em
+}
+
+.nariz{
+position: absolute;
+width: 0;
+height: -3em;
+border-right: 40px solid transparent;
+border-top: 10px solid transparent;
+border-left: 40px solid transparent;
+border-bottom: 40px solid #f0ad4e;
+left: 1.5em;
+}
+
+
+.cuerpo{
+  position: absolute;
+  width: 150px;
+  height: 400px;
+  border: 2px solid #FFFF00;
+  bottom: -25.4em;
+  border-radius: 20%;
+  background-color: #FFFF00
+}
+
+.brazo1{
+position: relative;
+width: 200px;
+height: 40px;
+background-color: #FFFF00;
+border: thin solid yellow;
+bottom: -10em;
+left: 9em;
+border-radius: 20%
+}
+
+.brazo2{
+  position: relative;
+  width: 40px;
+  height: 200px;
+  background-color: #FFFF00;
+  border: thin solid yellow;
+  bottom: -7em;
+  right: 12em;
+  border-radius: 20%
+}
